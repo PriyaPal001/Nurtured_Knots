@@ -80,7 +80,7 @@ const rakhiImages = import.meta.glob(
 );
 
 const scrunchiesImages = import.meta.glob(
-  "../assets/images/products/Scrunchies/*",
+  "../assets/images/products/scrunchies/*.{jpg,jpeg,png,webp}",
   {
     eager: true,
     query: "?url",

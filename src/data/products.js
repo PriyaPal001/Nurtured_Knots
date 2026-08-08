@@ -1,33 +1,91 @@
-import bagCharm from "../assets/images/products/bag_charm.jpg";
-import bookmark from "../assets/images/products/Book_mark.jpg";
-import bouquetMat from "../assets/images/products/Bouquet_mat.jpg";
-import chargerCover from "../assets/images/products/Charger_cover.jpg";
-import earbudsCover from "../assets/images/products/Ear_buds_cover.jpg";
-import flowerBouquet from "../assets/images/products/flower_bouquet.jpg";
-import glassesCase from "../assets/images/products/Glasses_case.jpg";
-import hairAccessories from "../assets/images/products/Hair_accessories.jpg";
-import headBand from "../assets/images/products/Head_band.jpg";
-import phoneCharm from "../assets/images/products/phone_charm.jpg";
-import rakhi from "../assets/images/products/Rakhi.jpg";
-import scrunchies from "../assets/images/products/Scrunchies.jpg";
-import singleFlower from "../assets/images/products/single_flower.jpg";
-import smallPurse from "../assets/images/products/Small_purse.jpg";
-import bandana from "../assets/images/products/Bandana.jpg";
+import bookmark from "../assets/images/products/hero-products/book-mark.jpg";
+import bouquet from "../assets/images/products/hero-products/bouquet.jpg";
+import chargerCover from "../assets/images/products/hero-products/charger-cover.jpg";
+import earbudsCover from "../assets/images/products/hero-products/ear-buds-cover.jpg";
+import glassesCase from "../assets/images/products/hero-products/glassescase.jpg";
+import headBand from "../assets/images/products/hero-products/head-band.jpg";
+import keyChain from "../assets/images/products/hero-products/key-chain.jpg";
+import phoneCharm from "../assets/images/products/hero-products/phonecharm.jpg";
+import rakhi from "../assets/images/products/hero-products/rakhi.jpg";
+import scrunchies from "../assets/images/products/hero-products/scrunchies.jpg";
+import smallPurse from "../assets/images/products/hero-products/smallpurse.jpg";
 
 export const products = [
-  { id: 1, name: "Flower Bouquet", image: flowerBouquet },
-  { id: 2, name: "Single Flower", image: singleFlower },
-  { id: 3, name: "Bouquet Mat", image: bouquetMat },
-  { id: 4, name: "Hair Accessories", image: hairAccessories },
-  { id: 5, name: "Head Band", image: headBand },
-  { id: 6, name: "Scrunchies", image: scrunchies },
-  { id: 7, name: "Bag Charm", image: bagCharm },
-  { id: 8, name: "Phone Charm", image: phoneCharm },
-  { id: 9, name: "Bookmark", image: bookmark },
-  { id: 10, name: "Charger Cover", image: chargerCover },
-  { id: 11, name: "Ear Buds Cover", image: earbudsCover },
-  { id: 12, name: "Glasses Case", image: glassesCase },
-  { id: 13, name: "Small Purse", image: smallPurse },
-  { id: 14, name: "Rakhi", image: rakhi },
-  { id: 15, name: "Bandana", image: bandana },
+  {
+    id: 1,
+    name: "Flower Bouquet",
+    description: "Handcrafted crochet flowers arranged into a beautiful bouquet.",
+    image: bouquet,
+    slug: "bouquet",
+  },
+  {
+    id: 2,
+    name: "Head Band",
+    description: "Cute and comfortable handmade crochet head bands.",
+    image: headBand,
+    slug: "head-band",
+  },
+  {
+    id: 3,
+    name: "Scrunchies",
+    description: "Handmade crochet scrunchies for an adorable everyday look.",
+    image: scrunchies,
+    slug: "scrunchies",
+  },
+  {
+    id: 4,
+    name: "Key Chain",
+    description: "Small handmade crochet charms perfect for your keys and bags.",
+    image: keyChain,
+    slug: "key-chain",
+  },
+  {
+    id: 5,
+    name: "Phone Charm",
+    description: "Cute crochet phone charms made to add a personal touch.",
+    image: phoneCharm,
+    slug: "phone-charm",
+  },
+  {
+    id: 6,
+    name: "Bookmark",
+    description: "Handcrafted crochet bookmarks for book lovers.",
+    image: bookmark,
+    slug: "bookmark",
+  },
+  {
+    id: 7,
+    name: "Small Purse",
+    description: "A cute handmade crochet purse for your everyday essentials.",
+    image: smallPurse,
+    slug: "small-purse",
+  },
+  {
+    id: 8,
+    name: "Glasses Case",
+    description: "Handmade crochet cases to keep your glasses protected.",
+    image: glassesCase,
+    slug: "glasses-case",
+  },
+  {
+    id: 9,
+    name: "Ear Buds Cover",
+    description: "Cute crochet covers for your earbuds.",
+    image: earbudsCover,
+    slug: "ear-buds-cover",
+  },
+  {
+    id: 10,
+    name: "Charger Cover",
+    description: "Handmade crochet charger covers with a cute finish.",
+    image: chargerCover,
+    slug: "charger-cover",
+  },
+  {
+    id: 11,
+    name: "Rakhi",
+    description: "Beautiful handmade crochet rakhis for special occasions.",
+    image: rakhi,
+    slug: "rakhi",
+  },
 ];

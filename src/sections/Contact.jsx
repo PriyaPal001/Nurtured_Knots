@@ -1,51 +1,39 @@
-import { ExternalLink, MessageCircle, Mail } from "lucide-react";
-import Container from "../components/Container";
-import Button from "../components/Button";
-
 export default function Contact() {
   return (
-    <section id="contact" className="bg-[#FFF9F4] py-24">
-      <Container>
-        <div className="mx-auto max-w-3xl rounded-3xl bg-white p-10 text-center shadow-sm">
+    <section
+      id="contact"
+      className="px-6 py-20 md:py-24"
+    >
+      <div className="mx-auto max-w-5xl">
+        <div className="rounded-[2rem] bg-[#F6E6E2] px-6 py-12 text-center md:px-12 md:py-16">
 
-          <p className="font-semibold uppercase tracking-widest text-[#C97B84]">
-            Get in Touch
+          <p className="text-sm font-semibold uppercase tracking-[4px] text-[#C97B84]">
+            Let's Create Something
           </p>
 
           <h2
-            className="mt-4 text-4xl font-bold"
+            className="mt-4 text-3xl font-bold text-[#3A2E2E] md:text-4xl"
             style={{ fontFamily: "Playfair Display" }}
           >
-            Let's Create Something Beautiful Together
+            Have something special in mind?
           </h2>
 
-          <p className="mt-6 leading-8 text-gray-600">
-            Whether you're looking for a handmade bouquet, a personalized
-            keychain, or a custom crochet gift, I'd love to help bring your
-            ideas to life.
+          <p className="mx-auto mt-5 max-w-2xl leading-7 text-gray-600">
+            Looking for a custom crochet piece or want to know more about
+            something you found here? Come say hello and let's talk about it.
           </p>
 
-          <div className="mt-10 flex flex-wrap justify-center gap-4">
-
-            <Button>
-              <ExternalLink size={18} />
-              <span className="ml-2">Instagram</span>
-            </Button>
-
-            <Button className="bg-green-600 hover:bg-green-700">
-              <MessageCircle size={18} />
-              <span className="ml-2">WhatsApp</span>
-            </Button>
-
-            <Button className="bg-gray-700 hover:bg-gray-800">
-              <Mail size={18} />
-              <span className="ml-2">Email</span>
-            </Button>
-
-          </div>
+          <a
+            href="https://instagram.com/"
+            target="_blank"
+            rel="noreferrer"
+            className="mt-8 inline-flex rounded-full bg-[#C97B84] px-8 py-3 font-semibold text-white transition duration-300 hover:scale-105 hover:bg-[#B86D76]"
+          >
+            Message us on Instagram
+          </a>
 
         </div>
-      </Container>
+      </div>
     </section>
   );
 }
